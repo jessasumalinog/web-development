@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+header{
+    background-color: green;
+    padding: 2em;
+    
+}
+h1{
+    font-size: 14px;
+    color: white;
+    
+}
+ul
+{
+ float: right;
+ list-style-type: none;
+ margin: 0;
+ font-size: 14px;
+ 
+}
+ul li
+{
+ display: inline-block;
+}
+ul li a
+{
+text-decoration: none;
+color: white;
+padding: 5px 30px;
+transition: 0.6s ease;
+
+
+}
+ul li a:hover{
+    background-color:rgb(204, 200, 200);
+    color: white
+}
+ul li.active a{
+    background-color: blue;
+    color: white
+
+}
+nav{
+    background-color: rgb(15, 172, 15);
+    /* color:white; */
+    padding:1em;
+    text-align: center;
+    
+}
+.regbox input
+{
+    width: 15%;
+    margin-bottom:10px;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+.regbox input[type="text"]
+.regbox input[type="search"]
+{
+    border: none;
+    border-bottom: 8px solid #fff;
+    outline-color: white;
+    color:black;
+    font-size: 16px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 85vw;
+    margin: auto;
+    grid-gap: 1em;
+    padding: 1rem;
+    border: white;
+    outline-color: black;
+}
+h4{
+    font-style: bold;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+}
+
+h5{
+    color: gray;
+    text-align: justify;
+    margin: 0.5em;
+}
+h2{
+    padding:1em;
+}
